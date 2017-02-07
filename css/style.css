@@ -1,0 +1,25 @@
+/* Empty. Add your own CSS if you like */
+
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.title{
+	font-size: 26px !important; 
+	font-weight: 700 !important;
+}
+
+a{
+	font-size: 12px;
+}
+
+#mainList .introText{
+	text-align: center;
+}
+
+#mainPost p{
+	line-height: 26px;
+}

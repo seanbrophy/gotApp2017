@@ -1,0 +1,18 @@
+<ion-header-bar classic="bar-dark">
+	<h1 class="title">Characters Specifics</h1>
+</ion-header-bar>
+
+<ion-content id="mainPost" class="padding">
+
+	<h1>{{charDetail.name}}</h1>
+	<p>Gender: {{charDetail.gender}}</p>
+	<p>Born: {{charDetail.born}}
+	<span data-ng-if="!charDetail.born">Unknown</span>
+	</p>
+	<p>Relevent Imagery:</p>
+	<img data-ng-src="img/{{charDetail.largeImage}}.jpg" alt="character image">
+</ion-content>
+
+<ion-footer-bar class="bar-stable">
+	<button class="button button-dark icon-left ion-home" ng-click="goHome()">Home</button>
+</ion-footer-bar>
